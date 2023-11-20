@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KZi4Vh2wGE3WPumZpCCeQjQVgmR/zEi/f9BSfh9l6/HFRRxzRobvgwb6iN1143mYnQ8uyBxAT07L9Hp6cC534A==",
+  "dgSpecHash": "fSCCfU/Zz9uABVrs/aI7+jV+5F6jEvYcmObnPV2N9I0qK0SvAycO+5K6e/Li2d0KkNN2rYQH48rIovfQnEfX2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Source\\Repos\\Online-School\\OnlineSchool\\OnlineSchool.csproj",
+  "projectFilePath": "C:\\Users\\student\\source\\repos\\Online-School\\OnlineSchool\\OnlineSchool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
