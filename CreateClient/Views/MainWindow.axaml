@@ -16,10 +16,10 @@
 	</Design.DataContext>
 	<TabControl>
 		<TabItem Header="Курсы">
-		
+	
 		</TabItem>
 		<TabItem Header="Преподаватели">
-		
+			<UserControl Content="{Binding _TeacherUserControl}"/>
 		</TabItem>
 	</TabControl>
 
