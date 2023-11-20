@@ -16,7 +16,7 @@
 	</Design.DataContext>
 	<TabControl>
 		<TabItem Header="Курсы">
-		
+			<UserControl Content="{Binding _CourseUserControl}"/>
 		</TabItem>
 		<TabItem Header="Преподаватели">
 		
