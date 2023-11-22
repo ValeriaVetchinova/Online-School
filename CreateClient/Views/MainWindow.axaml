@@ -19,7 +19,7 @@
 			<UserControl Content="{Binding _CourseUserControl}"/>
 		</TabItem>
 		<TabItem Header="Преподаватели">
-		
+			<UserControl Content="{Binding _TeacherUserControl}"/>
 		</TabItem>
 	</TabControl>
 

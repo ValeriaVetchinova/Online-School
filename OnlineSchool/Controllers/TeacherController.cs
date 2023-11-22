@@ -9,12 +9,10 @@ namespace OnlineSchool.Controllers
     {
         [HttpGet]
         [Route("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get()
         {
             OnlineSchoolContext db = new OnlineSchoolContext();
-            Teacher? teacher = db.Teachers.FirstOrDefault(c => c.Id == id);
-            if (teacher == null) { return NotFound(); }
-            return Ok(teacher);
+            return Ok(db.Teachers);
         }
         [HttpGet]
         public IActionResult All()
