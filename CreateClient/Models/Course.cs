@@ -5,11 +5,11 @@ namespace OnlineSchool.Models;
 
 public partial class Course
 {
-    public int Id { get; set; }
+    public int id { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string name { get; set; } = "ИМЯ";
 
-    public string Price { get; set; } = null!;
+    public string price { get; set; } = "ИМЯ";
 
-    public string Duration { get; set; } = null!;
+    public string duration { get; set; } = "ИМЯ";
 }

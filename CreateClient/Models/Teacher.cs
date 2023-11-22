@@ -5,11 +5,11 @@ namespace OnlineSchool.Models;
 
 public partial class Teacher
 {
-    public int Id { get; set; }
+    public int id { get; set; }
 
-    public string Fio { get; set; } = null!;
+    public string fio { get; set; } = "ИМЯ";
 
-    public string Experience { get; set; } = null!;
+    public string experience { get; set; } = "ИМЯ";
 
-    public string Speciality { get; set; } = null!;
+    public string speciality { get; set; } = "ИМЯ";
 }

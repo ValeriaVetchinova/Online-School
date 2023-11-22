@@ -62,7 +62,7 @@ namespace CreateClient.ViewModels
         public async Task Delete()
         {
             if (SelectedCourse == null) return;
-            var response = await client.DeleteAsync($"/courses/{SelectedCourse.Id}");
+            var response = await client.DeleteAsync($"/courses/{SelectedCourse.id}");
             if (!response.IsSuccessStatusCode)
             {
                 Message = "Ошибка удаления со стороны сервера";
@@ -97,7 +97,7 @@ namespace CreateClient.ViewModels
 
         public async Task Edit()
         {
-            var response = await client.PutAsJsonAsync($"/course", SelectedCourse);
+            var response = await client.PutAsJsonAsync($"/courses", SelectedCourse);
             if (!response.IsSuccessStatusCode)
             {
                 Message = "Ошибка изменения со стороны сервера";
